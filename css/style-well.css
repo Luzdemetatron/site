@@ -10,6 +10,10 @@ h2 span {
 	display: block;
 }
 
+.navbar-toggler{
+	border: none;
+}
+
 .bg-yellow-light{
 	background-color: #FFF8DF;
 }
@@ -32,8 +36,9 @@ h2 span {
 		line-height: 20px;
 	}
 
-	#camara ul li span{
+	.fa-diamond{
 		color: #C69210;
+		width: 12px;
 	}
 
 .img-float-l{
@@ -60,6 +65,7 @@ ul.cta a{
 ul.cta li{
 	display: inline;
 	margin-right: 3%;
+	transition: 0.3s ease-in-out;
 }
 	ul.cta li:last-child{
 		margin-right: 0;
@@ -124,5 +130,9 @@ ul.cta li:hover{
 		margin-left: 0;
 		margin-right: 0;
 		display: inline-block;
+	}
+
+	.page-section{
+		padding: 3rem 0; 
 	}
 }
