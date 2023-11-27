@@ -1,0 +1,128 @@
+
+h2{
+	font-weight: bold;
+	color: #012C57;
+}
+
+h2 span {
+	font-size: 16px;
+	color: #C69210;
+	display: block;
+}
+
+.bg-yellow-light{
+	background-color: #FFF8DF;
+}
+
+.bg-dark-blue{
+	background-color: #012C57;
+	color: #fff!important;
+}
+.bg-dark-blue h2{
+	color: #C69210;
+}
+
+#camara ul{
+	padding-left: 0;
+	list-style: none;
+}
+
+	#camara ul li{
+		margin-bottom: 4%;
+		line-height: 20px;
+	}
+
+	#camara ul li span{
+		color: #C69210;
+	}
+
+.img-float-l{
+	float: left;
+	margin-right: 3%;
+	margin-bottom: 3%;
+}
+
+.img-float-r{
+	float: right;
+	margin-left: 3%;
+	margin-bottom: 3%;
+}
+
+ul.cta{
+	margin: 4% 0;
+	padding: 0;
+}
+
+ul.cta a{
+	text-decoration: none;
+}
+
+ul.cta li{
+	display: inline;
+	margin-right: 3%;
+}
+	ul.cta li:last-child{
+		margin-right: 0;
+	}
+
+ul.cta li:hover{
+	color: #C69210;
+}
+
+.valor{
+	font-weight: bold;
+	color: #C69210;
+}
+
+.agendar{
+	background-color: #012C57;
+	color: #fff;
+	padding: 8px 16px;
+	max-width: 230px
+}
+.agendar img{
+	margin-left: 8px;
+	vertical-align: -2px;
+}
+
+.accordion-button, .accordion-item{
+	background-color: transparent!important;
+	color: #fff;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 16px;
+	padding-left: 0;
+}
+
+.accordion-button{
+	font-weight: bold!important;
+}
+
+.accordion{
+	--bs-accordion-border-color: #C69210!important;
+}
+
+.btn-dark-blue{
+	background-color: #012C57;
+	color: #C69210;
+}
+	.btn-dark-blue:hover{
+		background-color: #C69210;
+		color: #fff;
+	}
+
+@media (max-width: 520px) {
+	.cta li{
+		display: block!important;
+		margin-right: 0;
+		margin-bottom: 2%;
+	}
+}
+
+@media (max-width: 992px) {
+	.img-float-r, .img-float-l{
+		float: none!important;
+		margin-left: 0;
+		margin-right: 0;
+		display: inline-block;
+	}
+}
