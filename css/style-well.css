@@ -21,6 +21,8 @@ h2 span {
 .bg-dark-blue{
 	background-color: #012C57;
 	color: #fff!important;
+	padding: 2rem 0;
+	text-align: center;
 }
 .bg-dark-blue h2{
 	color: #C69210;
